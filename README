@@ -1,0 +1,15 @@
+= Overview
+
+Manages ntp with puppet
+
+
+= Dependencies
+
+This module requires to define a "virtual" class in your site.pp
+
+
+= Licence
+
+Copyright © 2007-2009 Raphaël Pinson <raphink@gmail.com>
+See the LICENSE file for the full license.
+

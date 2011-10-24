@@ -1,0 +1,9 @@
+#
+# Fichier genere par puppet
+#
+
+#Fichier de conf de la synchro de l'heure au demarrage
+
+NTPSERVERS="<% ntp_servers.each do |server| %><%= server %> <% end -%>"
+
+NTPOPTIONS="-u"
